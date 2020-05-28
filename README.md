@@ -22,3 +22,5 @@ This is an idea how your site should looks at the end [click here](https://maria
 * Use of icons (preference svg)
 * footer
 * Create your own repository an push all the changes in there
+
+Create issues on the link below on the parent repo if you are stuck and want to talk about it. You can paste code, tag people and refer to other issues there. Please use it! It will be helpful for mentors and future students to see where common problems are. Link here: https://github.com/Code-the-Dream-School/Front-End-1-Week-4-Assignment/issues
