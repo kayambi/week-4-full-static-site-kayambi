@@ -1,4 +1,4 @@
-# Learning Bootstrap
+# WEEK 4 ASSIGNMENT
 
 Is time to create a full **responsive** static site!
 
