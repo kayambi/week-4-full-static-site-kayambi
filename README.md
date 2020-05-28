@@ -2,11 +2,11 @@
 
 Is time to create a full **responsive** static site!
 
-Now you are free of create a website with all you have learned:
+Now you are free to create a website with all you have learned:
 * bootstrap
 * css selectors
 * media player
-
+* ...
 
 This is an idea how your site should looks at the end [click here](https://mariandreamv.github.io/bootstrap.github.io/)
 
