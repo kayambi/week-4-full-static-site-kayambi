@@ -1,6 +1,6 @@
 # WEEK 4 ASSIGNMENT
 
-Is time to create a full **responsive** static site!
+It's time to create a full **responsive** static site!
 
 Now you are free to create a website with all you have learned:
 * bootstrap
@@ -8,7 +8,7 @@ Now you are free to create a website with all you have learned:
 * media player
 * ...
 
-This is an idea how your site should looks at the end [click here](https://mariandreamv.github.io/bootstrap.github.io/)
+This is an idea of what your site should look like at the end [click here](https://mariandreamv.github.io/bootstrap.github.io/)
 
 **Requirements:**
 
