@@ -1,4 +1,19 @@
 
+*,::after ,::before {
+  box-sizing: border-box;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.img-fruid {
+  max-width: 100%;
+  height: auto;
+}
+.img {
+  vertical-align: middle;
+  border-style: none;
+}
+
 .navigationBar {
   flex-wrap: wrap;
 }
