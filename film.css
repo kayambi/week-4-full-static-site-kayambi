@@ -23,7 +23,8 @@
    
   .jumbotron{
     background: linear-gradient(0deg,#fff
-    ,transparent),url('https://placeimg.com/1000/500/tech') no-repeat center;
+    ,transparent),
+    url('https://placeimg.com/1000/500') repeat center;
     background-size:  cover;
   } 
   

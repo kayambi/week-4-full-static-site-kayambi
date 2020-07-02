@@ -23,7 +23,7 @@ ul{
  
 .jumbotron{
   background: linear-gradient(0deg,#fff
-  ,transparent),url('https://placeimg.com/1000/500/tech') no-repeat center;
+  ,transparent),url('Image/EventBackground.jpeg') no-repeat center;
   background-size:  cover;
 } 
 
@@ -97,4 +97,8 @@ ul{
 }
 form *, form *::before, form *::after {
   box-sizing: border-box;
+}
+.registerEvent {
+  color:red;
+  backface-visibility: visible;
 }
