@@ -38,7 +38,7 @@ ul{
 
 .highlight{
   border: 1;
-} */
+}
 
 .social-media-contact a::after{
   margin: 10px;
@@ -46,14 +46,55 @@ ul{
   width: 25px;
   height: 25px;
   border-radius: 50%;
-}
-
+  /* background-color:red; */
+} 
 .instagram::after{
   content: url(./media/instagram.svg);
+  color:rebeccapurple;
 }
 .facebook::after{
   content: url(./media/facebook.svg);
+  text-emphasis-color: white;
 }
 .twitter::after{
   content: url(./media/twitter.svg);
+}
+
+.footer-main-div {
+  width:100%;
+  height: auto;
+  margin: auto;
+  background:#212529;
+  padding:20px 0px; 
+
+} 
+
+.content-social{
+  display: inline-block;
+  float: none;
+  clear: none;
+}
+
+.facebook {
+          
+  color:yellowgreen;
+}
+.twitter {
+  color:yellowgreen;
+
+}
+.instagram {
+  color:yellowgreen;
+}
+.register{
+  border: aqua;
+  /* color:rebeccapurple; */
+  color:black;
+  display: center;
+}
+.formregister {
+  background:bisque;
+}
+form *, form *::before, form *::after {
+  box-sizing: border-box;
 }
