@@ -13,36 +13,55 @@
   <body>
      <!-- Navigation bar -->
          <div class ="container-fluid">
-         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark outer-container nav-top nav-top--mobile closed 
+         hidden button" aria-label="Close" class="outer-container nav-top nav-top--mobile closed hidden">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+
            <div class="container">
-          <a class="navbar-brand " href>DATA STRUCTURE<img src="https://placeimg.com/1000/500/tech" 
+          <a class="navbar-brand " href>Event management<img src="https://placeimg.com/1000/500/tech" 
             width="30" height="30" class="d-inline-block align-top rounded-circle" alt="Data Structere">
           </a>
-
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
             </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item active">
-                    <a class="nav-link text-light" href>Linear Search <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-light" href="film & Music.html">Music & Films <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href>Linked List</a>
+                    <a class="nav-link text-white" href="index.html">Events</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href>Stack</a>
+                    <a class="nav-link text-light" href>Arts Paintings</a>
                   </li>
                   <li class="nav-item dropdown text-light">
                     <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      More DS
+                      Q & A Area
                     </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href>Tree</a>
-                        <a class="dropdown-item" href>Queue</a>
-                        <a class="dropdown-item" href>Binary Tree</a>
+                        <a class="dropdown-item" href>Films Q&A</a>
+                        <a class="dropdown-item" href>Film Release</a>
+                        <a class="dropdown-item" href>Arts Competition</a>
                       </div>
                     </li>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary">Other Events Options</button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                          <span class="sr-only">Other Events Options</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </div>
+
                   </ul>
               </div>
           </nav>
@@ -51,24 +70,21 @@
      <div class="backgroundImg">
      <div class = "jumbotron jumbotron-fluid text-center pt-10 mt-10">
       <div class= "container">
-       <h1 class="display-1 mt-2 title-letter">DATA STRUCTURE</h1>
-       <P class= "lead mb-5 mt-4">A data structure is particular way of organizing data in a computer 
-        so the it can be used effectively.
+       <h1 class="display-1 mt-2 title-letter">Events</h1>
+       <P class= "lead mb-5 mt-4">
        </P>
     </div>
     </div>
   </div>
-
   <!-- Columns and Rows  -->
   <div class="row">
     <div class="col-lg order-lg-2 mb-4" id="StoryNum1">
-       <h2 class> What is DS ? </h2> 
-       <img src="https://placeimg.com/1000/500/tech" width="auto" height="auto" alt="not found"class="img-fruid rounded">
+       <h2 class> Music Venue </h2> 
+       <!-- <img src="https://placeimg.com/1000/500/tech" width="auto" height="auto" alt="not found"class="img-fruid rounded"> -->
         <p class = "mt-4 text-justify">
               In computer science , a data structure is a data organization,management and storage 
               format that enables effecient access and modifiaction. More precisely,a data structrure is a collections of data values 
-              , the relationship amongt them,and function or operations that can be applied to the data.      
-     
+              the relationship amongt them,and function or operations that can be applied to the data.      
         </p>
           <p> 
             Data structure are generally based on the ability of computer to fetch and store data at 
@@ -79,29 +95,66 @@
 
           <hr>
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-outline-info badge-info text-white mt-3" data-toggle="modal" data-target="#exampleModalCenter">
-          <h3>More Sorting Algorithm<h3>
-          </button>
+          <!-- <button type="button" class="btn btn-outline-info badge-info text-white mt-3" data-toggle="modal" data-target="#exampleModalCenter">
+          <h3>Film Venue<h3> -->
+          <!-- </button>-->
           <!-- Video -->  
           <div class="embed-responsive embed-responsive-16by9">
             <video class="embed-responsive-item" src="./media/bubble-sort.mov" type="video/mov" allowfullscreen controls></video>
           </div>
-    
-
-
         <p>
              The implimentation of a data structure usually requires writting a set of procedures that create and manipulate instances of that structure. The efficiency of a data structure
              cannot be analyzed separatly from those operations that may be be performed on it, and the mathematical properties of those operations (including their space and time cost).  
           </p>
     </div>
     <hr>
-    <div class="col-lg order-lg-3 "> 
+    <div class="col-lg order-lg-3 ">
+          <!-- On rows -->
+          
+      <di> 
+      <!-- form goes here -->
+<!-- start the Exhibition -->
+      <h3>Film Submission</h3> 
 
-      <h3>Searching Algorithm</h3> 
+      <table class="table">
+          <caption>List of users</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+<!-- 
+
       <ul class="list-group mb-6">
         <li class= "list-group-item pb-1">
           <h4>
-            <strong>Binary Search</strong>
+            <strong>Exhibition Venue</strong>
           </h4>
           <div class="d-flex justify-content-between mb-1">
             <small class>time complexity</small>
@@ -153,7 +206,7 @@
             <small class="badge badge-pill badge-info">O(log(n))</small>
           </div>
         </li>
-      </ul> 
+      </ul>  -->
       <hr> 
       <p> 
         Data structure are generally based on the ability of computer to fetch and store data at 
@@ -161,12 +214,12 @@
         adress ,that can be itself stored in memory and manipulated by the program.Thus , the array and record data structures are based on computing the addresses of data items 
         with arthimetic operations , while the linked data structures are based on storing addresses of data items within structures itself.
       </p> 
-   
     </div>
+          
     <hr>
     <div class="col-lg order-lg-1 ">
-       
-      <h2>Some Sorting Algorithm</h2> 
+<!--        
+      <h2>Exhibition Venue</h2> 
       <ul class="list-group mb-4"> 
         <li class= "list-group-item">
 
@@ -181,7 +234,6 @@
            they are in wrong order.
        </li>
               <li class= "list-group-item">
-
                 <strong>Selection Sort:</strong>
                 S orting Algorithm sorts an array by repeatedly finding 
                 the minimum element 
@@ -206,10 +258,78 @@
             It divides input array into two halves , calls itself for the 
             halves  and then merges the two sorted halves. 
            </li>
-      </ul>
-    
+      </ul> -->
+
+      <!-- Form will go here-->
+      <h1 class="register">Register Here</h1>
+    <div class="formregister">
+    <div class="d-flex flex-sm-row form-box ui-repeater" id="sideContactT1Form">
+      <aside>
+    <form >
+        <!-- <h1 class="register">Register Here</h1> -->
+        <hr>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+ 
+        <!-- home address -->
+ 
+            <div class="form-row">
+              <div class="form-group col">
+                <label class="register" for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group col register">
+                <label  for="Phonenum">Phone Number</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+            </div>
+            <div class="register"  class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group register">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row register">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4 register">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2 register">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check register">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary register">Send</button>
+          <!-- </form>  -->
+      </form>
+    </div>
+    </div>
+    <hr>
           <!-- Slide Control-->
-          <h2> Gallery</h2>
+          <h2> Arts </h2>
      
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
            <div class="carousel-inner">
@@ -231,25 +351,23 @@
              <span class="carousel-control-next-icon" aria-hidden="true"></span>
              <span class="sr-only">Next</span>
            </a>
-           <div class="media">
-            <img src="" class="mr-3" alt="...">
-            <div class="media-body">
-              <h5 class="mt-0">Media heading</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
+           <hr>
+       
          </div>
           <!--  End Slide -->
+          
     </div>
     </div>
-</div> 
+  </div>
 <!-- <footer class="footer-main-div bg-secondary mt-5 " > -->
   <!-- <div class="social-media-contact my_social"> -->
     <footer class="bg-secondary mt-5">
     <div class="container"> 
       <div class="row text-center">
         <div class="col">
+          
           <div class="social-media-contact mt-2">
+              <p>Social Media Network</p>
             <a href class="instagram" target="_blank">
               instagram </a>
             <a href class="facebook" target="_blank">
@@ -261,14 +379,17 @@
             </div>
             <hr>
             <div>
-            <p>Data Structure</p>
-            <p>Phone:(415)9968953</p>
+            <p>Email:example@gmail.com</p>
+            <p>Phone:(000)9965653</p>
             </div>
             </div>
-         
       </div>
     </div>
+<!-- May need to put it back -->
 </footer>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src ="./js/index.js"></script>

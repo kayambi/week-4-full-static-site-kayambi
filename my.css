@@ -86,3 +86,15 @@ ul{
 .instagram {
   color:yellowgreen;
 }
+.register{
+  border: aqua;
+  /* color:rebeccapurple; */
+  color:black;
+  display: center;
+}
+.formregister {
+  background:bisque;
+}
+form *, form *::before, form *::after {
+  box-sizing: border-box;
+}
